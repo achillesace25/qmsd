@@ -285,7 +285,7 @@ const Report = () => {
             {/* Side-by-Side Line Graphs */}
             <Row gutter={16} style={{ marginTop: '20px' }}>
                 <Col span={12}>
-                    <h3>Year and Course Comparison Chart:</h3>
+                    <h3>Year and Course Board Passers Comparison Chart:</h3>
                     {chartData.labels ? (
                         <div style={{ width: '100%', height: 400 }}>
                             <Line
@@ -327,7 +327,7 @@ const Report = () => {
                     )}
                 </Col>
                 <Col span={12}>
-                    <h3>Monthly Course Comparison Chart:</h3>
+                    <h3>Monthl Course Board Passers Comparison Chart:</h3>
                     {monthChartData.labels ? (
                         <div style={{ width: '100%', height: 400 }}>
                             <Line
