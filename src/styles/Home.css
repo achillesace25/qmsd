@@ -1,0 +1,23 @@
+/* Home.css */
+
+div {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+div > div {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  div {
+    padding: 10px;
+  }
+}

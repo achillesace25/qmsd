@@ -1,0 +1,11 @@
+/* In Academic.css file */
+
+/* Red for duplicate rows */
+.duplicate-row {
+  background-color: #ffcccc; /* Light red */
+}
+
+/* Green for non-duplicate rows */
+.non-duplicate-row {
+  background-color: #ccffcc; /* Light green */
+}

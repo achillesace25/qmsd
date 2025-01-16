@@ -1,0 +1,21 @@
+.topbar {
+  background-color: #001529;
+}
+
+/* Set font size and weight for all Menu items */
+.ant-menu-dark .ant-menu-item, 
+.ant-menu-dark .ant-menu-submenu-title {
+  font-size: 16px;
+  font-weight: bold; /* Ensures dropdown titles match other items */
+}
+
+/* Hover effect for Menu items */
+.ant-menu-dark .ant-menu-item:hover, 
+.ant-menu-dark .ant-menu-submenu-title:hover {
+  background-color: #1890ff;
+}
+
+/* Ensure consistent padding and alignment for dropdown items */
+.ant-menu-dark .ant-menu-submenu .ant-menu-item {
+  font-size: 16px; /* Matches parent menu font size */
+}
